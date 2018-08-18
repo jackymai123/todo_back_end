@@ -1,15 +1,95 @@
-/*
- * This is a manifest file that'll be compiled into application.css, which will include all the files
- * listed below.
- *
- * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
- * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
- *
- * You're free to add application-wide styles to this file and they'll appear at the bottom of the
- * compiled file so the styles you add here take precedence over styles defined in any styles
- * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
- * file per style scope.
- *
- *= require_tree .
- *= require_self
- */
+html{
+    font-family:sans-serif;
+}
+
+
+
+
+h1{
+    display: inline;
+    vertical-align: middle;
+    font-size: 32px;
+    margin: 20px 0px;
+    background-color: #ADFF2F;
+}
+
+ul{
+    list-style:none;
+    font-size: 20px;
+    background-color: #00FFFF;
+    padding: 20px;
+    width: 60%;
+    margin: 0 auto;
+    border-radius: 5px;
+    box-shadow: 1px 1px #ADFF2F;
+}
+
+li{
+    margin-bottom: 10px;
+    padding: 5px;
+}
+li:hover{    border-radius: 3px;
+}
+
+a{
+    text-decoration: none;
+    color: #ADFF2F;
+    vertical-align: middle;
+}
+
+input[type= "text"], input[type="number"]{
+    font-size: 20px;
+    background-color: #FFF;
+    outline: none;
+    border-style: none;
+    padding: 5px;
+    border-radius: 3px;
+    box-shadow: 1px 1px 1px #ADFF2F;
+}
+
+div{
+    width: 60%;
+    margin: 20px auto 0px auto;
+}
+.pomodoro-estimate{
+    font-weight: bold;
+    color: #f44336;
+    background-color: #f5f5f5;
+    border-radius: 50px;
+    font-size: 14px;
+    padding: 5px 10px 5px 10px;
+}
+
+    #add-new-todo-button{
+    font-size: 20px;
+    text-align: center;
+    color:#fc0101;
+    outline: none;
+    border-style: none;
+    padding: 10px;
+    border-radius: 3px;
+    box-shadow: 2px 2px 1px #90A4AE;
+    display: block;
+    background-color: #03A9F4;
+    margin-top: 10px;
+}
+
+#add-new-todo-button:active{
+    box-shadow: 1px 1px 1px #90A4AE;
+    color: #02fc1f;
+
+}
+body {
+    color: #02fc1f;
+    background-color:#ECEFF1;
+    font-family: sans-serif;
+}
+
+h3{
+    color: #02fc1f;
+    text-align: center;
+    margin-top: 20px;
+}
+.completed-todo{
+ text-decoration: line-through;
+}

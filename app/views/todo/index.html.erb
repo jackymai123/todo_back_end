@@ -1,1 +1,32 @@
-Hello
+<html>
+<head>
+    <title> TODO app</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="index.js"></script>
+</head>
+<body>
+    <h1>Things to do</h1>
+    
+        <ul>
+       
+           <li>
+               <input type="checkbox">
+              <a href="show.html"> Order food</a>
+              <span class= "pomodoro-estimate">1 Pomodoro</span>
+           </li>
+
+            <li>
+                <input type="checkbox">
+                Finish things
+                <span class="pomodoro-estimate">1 Pomodoro</span>
+                
+            </li>
+        </ul>
+        <div id="new-todo-block">
+            <input id="new-todo-description" type="text"placeholder="Add a new todo...">
+            <input id="new-pomodoro-estimate" type="number"placeholder="Pomodoro estimate...">
+            <input id="add-new-todo-button" type="submit" value="Add todo">
+        </div>
+</body>
+</html>
